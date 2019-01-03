@@ -2,28 +2,31 @@
 Youtube web API application 
 
 Description:
-This is simple youtube API web application allowing user to search youtube channel. User has to log in with google account for autentication and service.User can type in channel name in a form to submit, then it will shows recent videos from the channel that user typed in.If user types in invalid or wrong channel name, it alerts error message.
+- This is simple youtube API web application allowing user to search youtube channel. 
+- User has to log in with google account for autentication and service.
+- User can type in channel name in a form to submit, then it will shows recent videos from the channel that user typed in.
+- If user types in invalid or wrong channel name, it alerts error message.
 
-signin page
+- signin page
 ![](signin.jpg)
 
-User Google Autentication page
+- User Google Autentication page
 ![](OAuth.jpg)
 
-Autentication success and display playlist
+- Autentication success and display playlist
 ![](success.jpg)
 
-Developer: Saejong Jang
+- Developer: Saejong Jang
 
 Environment: 
-1. Editor => VSCode
-2. Server => Apache(localhost running on Xampp) 
-3. Language => HTML, CSS, JavaScript
+- Editor => VSCode
+- Server => Apache(localhost running on Xampp) 
+- Language => HTML, CSS, JavaScript
   
 Sources used:
-YouTube DataAPI developers & StackOverflow => 
-Guding for google OAuth ClientID for valid API request
-and referceing QuickStart, Channels, PlaylistItems JavaScript examples for API methods
+- YouTube DataAPI developers & StackOverflow => 
+- Guding for google OAuth ClientID for valid API request
+- and referceing QuickStart, Channels, PlaylistItems JavaScript examples for API methods
 
 List the HTTP requests and responses:
  
