@@ -7,9 +7,9 @@ Description:
 This is simple youtube API web application allowing user to search youtube channel. User has to log in with google account for autentication and service.User can type in channel name in a form to submit, then it will shows recent videos from the channel that user typed in.If user types in invalid or wrong channel name, it alerts error message.
  
 Environment: 
-Editor => VSCode
-Server => Apache(localhost running on Xampp) 
-Language => HTML, CSS, JavaScript
+1. Editor => VSCode
+2. Server => Apache(localhost running on Xampp) 
+3. Language => HTML, CSS, JavaScript
  
  
 Sources used:
