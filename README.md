@@ -7,13 +7,13 @@ Description:
 - User can type in channel name in a form to submit, then it will shows recent videos from the channel that user typed in.
 - If user types in invalid or wrong channel name, it alerts error message.
 
-- signin page
+signin page
 ![](signin.jpg)
 
-- User Google Autentication page
+User Google Autentication page
 ![](OAuth.jpg)
 
-- Autentication success and display playlist
+Autentication success and display playlist
 ![](success.jpg)
 
 - Developer: Saejong Jang
