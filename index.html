@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <title>YouTube API</title>
+</head>
+
+<body>
+  <nav class="nav-extended">
+    <div class="nav-wrapper">
+      <div class="container">
+        <a href="#!" class="brand-logo center"><i class="material-icons">subscriptions</i>Search YouTube Channel</a>
+      </div>
+      <div>
+        <br>
+        <button class="waves-effect waves-light btn-small right" id="signout-button">Log Out</button>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <section>
+    <div class="container">
+      <button class="btn red" id="authorize-button"><i class="material-icons left">person</i>Sign In With Google</button>
+      <br>
+      <div id="content">
+        <div class="row">
+            <form id="channel-form">
+                <input type="text" placeholder="Enter Channel Name" id="channel-input">
+                <input type="submit" value="Submit" class="btn pink">
+            </form>
+          </div>
+          <div id="channel-data" class="col s6"></div>
+        <div class="row" id="video-container"></div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script src="main.js"></script>
+  <!-- scripts from youtube data API https://developers.google.com/youtube/v3/quickstart/js-->
+  <script async defer src="https://apis.google.com/js/api.js" onload="this.onload=function(){};handleClientLoad()" onreadystatechange="if (this.readyState === 'complete') this.onload()">
+  </script>
+</body>
+
+</html>
